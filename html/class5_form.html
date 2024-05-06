@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <h1>forms</h1>
+    <form action="/formtext.html" method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" required id="name" placeholder="eg;yusra"><br>
+        <label for="email">email</label>
+        <input type="email" name="email" required id="email" placeholder="eg:abc@123"><br>
+        <label for="password">password</label>
+        <input type="password" name="password" required id="password" placeholder="eg:****"><br>
+        <label for="age">Your age</label>
+        <input type="number" name="age" required id="age" placeholder="23"><br>
+        <label for="whatsapp_link">Your whatsapp link</label>
+        <input type="url" name="whatsapp link" required id="whatsapp_link" placeholder="https://www.example.com"><br>
+        <label for="dob">dob</label>
+        <input type="date" name="dob" required id="dob"><br>
+        <label for="gender">gender</label>
+        <select name="gender" id="gender">
+            <option value="male">male</option>
+            <option value="female">female</option>
+        </select><br>
+        <label>country</label>
+        <input type="radio" name="country" value="pakistan" id="pakistan">
+        <label for="pakistan"> pakistan</label>
+        <input type="radio" name="country" value="other" id="other">
+        <label for="other">other</label> <br>
+        <label>subjects</label>
+        <input type="checkbox" name="subjects" value="english" id="english">
+        <label for="english"> english</label>
+        <input type="checkbox" name="subjects" value="math" id="math">
+        <label for="math"> math</label>
+        <input type="checkbox" name="subjects" value="urdu" id="urdu">
+        <label for="urdu"> urdu</label><br>
+        <label for="messege">messege</label><br>
+        <textarea name="messege" id="messege" cols="30" rows="10"></textarea><br>
+        <label for="images">profile image</label>
+        <input type="file" name="image" id="images" required> <br>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+
+    </form>
+</body>
+
+</html>
